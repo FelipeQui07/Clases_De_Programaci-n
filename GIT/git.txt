@@ -30,15 +30,37 @@ COMANDOS BÁSICOS DE LA TERMINAL(LINUX)  GIT BASH
 - mkdir 'nombre de la carpeta' esto nos sirve para crear una carpeta o un directorio
 - git init para inicializar un repositorio basio de git en la carpeta seleccionada
 - code . para abrir vsc desde la carpeta en la que estemos 'todo esto se esta haciendo desde la terminal de git bash'
-- se puede colocar la terminal de git bash en vsc 
+- se puede colocar la terminal de git bash en vsc
 
 COMANDOS DE GIT
 - git status'Es un comando que nos permitira ver en que estado se encuentra los archivos actualmente'
 el status nos muestra lo que esta listo para hacer el commit
+- git status -s para mostranos una información mas compacta (M y el nombre del archivo, si muestra la M en rojo es por que
+se agredo el archivo modifiacado al git add si aparece un ?? es porque el archivo no se agredado y no existe para el commit,
+si aprece una A significa que el archivo se a agrado y la M es de modifiacado)
 - git add nombre del archivo que quieres craquear o git add . para agregar todos los archivos de una vez
 - git rm --cached nombre del archivo que quieres sacar del state
 esto se hace cuando se modifiaca el archivo que agragaste:
 - (use "git add <file>..." to update what will be committed) para actualizar el archivo con las modificaciones que hicimos
 - (use "git restore <file>..." to discard changes in working directory) para que estos cambios se pierdan y vuelvan a como estaban antes
 cuando hagas esto los archivos quedan listos para hacerles el commit
-- git commit -m "Se actualizo la información del archivo 2
+- git commit -m "Se actualizo la información del archivo 2"
+
+GIT .IGNORE
+es un archivo de configuración en el cúal vamos a poner todos los archivos y carpetas que van a ser ignoradas por git
+no van a ser fografiadas y tampoco van hacer subidos a un repositorio. ¿Porque usamos este archivo? por que hay un montón de archivos
+que se generan solos o que no queremos que se subán.   
+
+ARCHIVOS QUE SE IGNORAN
+- .env: es un archivo donde se pone la variables de entorno que nosotros no queremos que nadie se entere por que en este archivo 
+manejamos contraseñas, o suele haber usuarios y password para poder entrar a las bases de datos entonces las variables de entorno
+se suelen agregar a .gitignore para que no se comporta.
+- node_modules
+- si tubieramos muchos archivos (de imagenes jpg) *.jpg lo mismo con video *.mp4
+
+ejemplo = creamos una carper .gitignore y otra carpeta .env agrgamos el nombre completo al archivo gitignore y despues de eso 
+hacemos el git add y despúes el git commit -m y veremos como solo aparece la carpeta de gitignore y la carpeta .env que creamos
+no aparece cuando hacemos el git status.
+
+comando git diff para ver la diferencia de un archivo antes y un archivo despues para poder hacer una fotografia con git commit
+si corresponde o no en base a lo que necesitemos.
