@@ -35,7 +35,7 @@ COMANDOS BÁSICOS DE LA TERMINAL(LINUX)  GIT BASH
 COMANDOS DE GIT
 - git status'Es un comando que nos permitira ver en que estado se encuentra los archivos actualmente'
 el status nos muestra lo que esta listo para hacer el commit
-- git add nombre del archivo que quieres craquear
+- git add nombre del archivo que quieres craquear o git add . para agregar todos los archivos de una vez
 - git rm --cached nombre del archivo que quieres sacar del state
 esto se hace cuando se modifiaca el archivo que agragaste:
 - (use "git add <file>..." to update what will be committed) para actualizar el archivo con las modificaciones que hicimos
