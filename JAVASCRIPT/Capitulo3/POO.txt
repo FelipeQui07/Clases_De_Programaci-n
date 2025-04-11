@@ -1,0 +1,45 @@
+✓ La abstraccion es resumir los métodos de una forma en la que podamos tener lo mas importante,
+lo mas fundamental de ese objeto resumino
+
+✓ La modularidad es la capacidad de resolver un problema muy grande separandolo por partes
+
+✓ El encapsulamiento basicamente consiste en hacer que todos los datos esten privados o sea 
+que el usuario no puede acceder a ellos tan facilmente
+
+✓ El polimorfismo consiste en ver como un objeto se comporta de manera distinta ante
+el mismo método, es la capacidad que tiene un objeto para comportarse distinto por sus propiedades
+
+✓ La herencia es crear una clase que va a tomar todo lo que puede hacer la otra clase y las
+propiedades de esa clase pero ademas agregar cosas nuevas
+
+✓ El método static es un método que no necesita que la clase se defina para poder ser creado 
+
+class Perro extends Animal{
+    constructor(especie, edad, color, raza){ 
+        super(especie, edad, color); 
+        this.raza = raza;
+    }
+    static ladrar(){
+        alert(`El ${this.raza} hace WAW`);
+    }
+}
+
+const gato = new Animal("Felino", 2, "Negro");
+const pajaro = new Animal("Pajaro", 1, "Verde");
+
+Perro.ladrar(); Nombre de la clase R= WAW
+gato.verInfo();
+pajaro.verInfo();
+
+Esto claramente puede ser un metodo estatico por que no esta Por que no esta usando las propiedades 
+y como no estoy utilizando las propiedades no hace falta crear al objeto, ¿Por que?. Por que lo
+que hace el constructor es construye el objeto cuando le damos todo lo que nos pide en los
+parametros (especio, color, raza), sin embargo en el metodo no estamos usando nada, entonces
+tranquilamente podriamos ejecutar esto antes de crear el objeto, antes de instanciarlo como tal, 
+para eso usamos static. no aparece nada todavia de especie, etc, por que no creamos el objeto, no 
+existe el objeto perro, todavia no existe, existe la clase, estamos como instanciando una clase 
+temporal quie cuando le damos en ladrar se ejecuta el metodo estatico, para eso sirve el metodo
+static.
+
+despues de esto siguen los metodos getters y setters: 
+Los getters son para obtener un valor, los setters son para modificar o definir un valor 

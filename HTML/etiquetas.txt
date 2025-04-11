@@ -1,0 +1,19 @@
+- hacer identacion automáticamente alt + shift + f
+- hacer una copia de la linea de código alt + shif + flecha
+- bajar una linea de código a otra linea alt + fecha
+- Etiqueta <hr> no sirve para hacer un salto de linea y colocarnos una linea después del salto, se utiliza mucho para los titulos
+- etiqueta <q> para hacer una cita en el texto
+- dentro de la etiqueta q se coloca el atributo cite y se coloca la dirección de donde se saco la cita
+- etiqueta <sup> para el super indice cm²
+- etiqueta <sub> para el subindice H₂O
+- etiqueta <abbr> para las abreviatursas
+- etiqueta <acronym> nos muestra el acronimo de la palabra que escribamos funciona muy parecido a abbr
+- type dentro de la etiqueta ol para cambiar el tipo de enumeracion
+- reverse dentro de la etiqueta ol para invertir la enumeracion
+- start dentro de la etiqueta para especificar desde que numero se va a empezar
+- input usuario value="Felipe" readOnly-para que no se pueda modificar o disable para que el nombre aparezca en gris y no se pueda modificar
+- maxlength para que el nombre tenga un maximo de caracteres
+- minlength para que el nombre tenga un minimo de caracteres
+- max ymin son para numeros
+- multiple en el type="file" nos sirve para subir varios archivos al mismo tiempo
+- pagina svg repro

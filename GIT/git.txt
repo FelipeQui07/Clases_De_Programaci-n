@@ -1,0 +1,44 @@
+¿QUÉ ES GIT?
+Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un 
+repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o
+de forma remota con facilidad. Los desarrolladores confirman su trabajo localmente y, a continuación, sincronizan su copia 
+del repositorio con la copia en el servidor. Este paradigma es distinto del control de versiones centralizado, donde los clientes 
+deben sincronizar el código con un servidor antes de crean un nuevas versiones.
+
+TRABAJO EN EQUIPO
+Los cambios de todos localmente se pueden cerntralizar en un repositorio donde todas las versiones pueden confluir.
+
+PRIMER PASOS PARA HACER TODA LA CONFIGURACIÓN
+esto hacerlo en la consola de git 'git bash'
+git config --global user.name "Nombre de usuario en github"
+git config --global user.emal"Email del repositorio remoto"
+git config --global core.editor "code --wait" 'code es la palabra clave de vsc si tienes otro editor buscar su palabra clave'
+git config --global -e 'este -e va abrir un archivo donde tenemos lo que acabamos de escribir'
+para el salta de linea en windows:
+git config --global core.autocrlf true 'true para windows input para mac o linux'
+git config --global -h 'Nos trae todas las ayudas para mostrarnos todo lo que podemos hacer'
+
+COMANDOS BÁSICOS DE LA TERMINAL(LINUX)  GIT BASH
+- ls 'Es el comando para ver el listado de carpetas de donde estamos parados'si fuera en windows utilizamos (dir)''
+- ls -a 'es para que nos muestre todas los archivos incluso los ocultos'
+- cd 'nombre de la carpeta a la que quieres entrar'
+- pwd 'Nos muestra la ruta completa de la carpeta donde estamos'
+- cd .. para salir de la carpeta actual
+- ./ significa en nuestra carpeta
+- ../ significa en la carpeta anterior
+- ./nombre de la carpeta significa adentro de la carpeta
+- mkdir 'nombre de la carpeta' esto nos sirve para crear una carpeta o un directorio
+- git init para inicializar un repositorio basio de git en la carpeta seleccionada
+- code . para abrir vsc desde la carpeta en la que estemos 'todo esto se esta haciendo desde la terminal de git bash'
+- se puede colocar la terminal de git bash en vsc 
+
+COMANDOS DE GIT
+- git status'Es un comando que nos permitira ver en que estado se encuentra los archivos actualmente'
+el status nos muestra lo que esta listo para hacer el commit
+- git add nombre del archivo que quieres craquear
+- git rm --cached nombre del archivo que quieres sacar del state
+esto se hace cuando se modifiaca el archivo que agragaste:
+- (use "git add <file>..." to update what will be committed) para actualizar el archivo con las modificaciones que hicimos
+- (use "git restore <file>..." to discard changes in working directory) para que estos cambios se pierdan y vuelvan a como estaban antes
+cuando hagas esto los archivos quedan listos para hacerles el commit
+- git commit -m "Se actualizo la información del archivo 2

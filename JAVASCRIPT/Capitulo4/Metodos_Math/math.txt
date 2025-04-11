@@ -1,0 +1,23 @@
+Objeto Math - Basico
+
+    _____METODOS_____
+    - sqrt() - Devuelve la raíz cuadrada positiva de un numero.
+    - cbrt() - Devuelve la raíz cúbica de un numero.
+    - max() - Devuelve el mayor de cero o mas numeros.
+    - min() - Devuelve le numero mas pequeño de cero o mas numeros.
+    - random() - Devuelve un numero pseudo-aleatorio entre 0 y 1.
+    - round() - Devuelve el valor de un numero redondeado al numero entero mas cercano.
+    - fround() - Devuelve la representacion flotante de precision simple mas cercana al numero.
+    - floor() - Devuelve el mayor entero menor que o igual a un numero.
+    - trunc() - Devuelve la parte entera del numero x, la eliminacion de los numreos fraccionarios.
+
+    _____PROPIEDADES_____
+    - PI - Ratio de la circunferencia de un circulo respecto a su diametro, aproximadamente 3.14159.
+    - SQRT1_2 - raíz cuadrada de 1/2; equivalente, 1 sobre la raiz cuadrada de 2, aproximadamente 0.707.
+    - SQRT2 - Raíz cuadrada de 2, aproximadamente 1.414.
+
+    - E - Constante de Euler, la base de los algoritmos naturales, aproximadamente 
+    - LN2 - Logaritmo natural de 2, aproximadamente 0.693.
+    - LN10 - Logaritmo natutal de 10, aproximadamente 2.303.
+    - LOG2E - Logaritmo de E con base 2, aproximadamente 1.443.
+    - LOG10E - Logaritmo de E con base 10, aproximadamente 0.434.

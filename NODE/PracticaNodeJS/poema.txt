@@ -1,0 +1,24 @@
+En el vasto mundo del código, profundo y sin fin,
+un camino se abre, con Node.js al confín.
+Sergi Code, el guía, con su voz clara y fiel,
+nos lleva por rutas donde el JavaScript es la piel.
+
+Con cada tutorial, una puerta al saber,
+cómo las peticiones empiezan a nacer.
+Asíncrono y rápido, el evento va y viene,
+en el servidor, Node siempre mantiene.
+
+Un callback aquí, un promise allá,
+toda la magia que la web sabrá.
+Sergi nos enseña con paciencia y arte,
+a dominar las herramientas, a jugar la parte.
+
+Con Express y MongoDB, se abren los cielos,
+y en cada línea de código, se crean anhelos.
+La comunidad crece, el conocimiento fluye,
+Node.js es la llave, y Sergi nos lo construye.
+
+Así, entre clases y líneas de código,
+aprendemos juntos, paso a paso, sin lío.
+Con Sergi Code como mentor y aliado,
+Node.js se vuelve nuestro camino iluminado.

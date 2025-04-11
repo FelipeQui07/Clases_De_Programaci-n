@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../static/img/copito.ico" type="image/x-icon">
+    <title>Mi primera pagina web</title>
+</head>
+
+<style>
+    body {
+        font-family: "Lucida Console", "Courier New", monospace;
+        background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+
+    .active {
+        background-color: #92a4ff;
+    }
+
+    h1 {
+        background-color: black;
+        padding: 10px;
+        margin: 0;
+        color: #92a4ff;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        float: right;
+        margin: 0 0 20px 20px;
+        max-width: 25%;
+        height: auto;
+    }
+
+    .image2 {
+        float: left;
+        margin: 0 20px 20px 0;
+        max-width: 25%;
+        height: auto;
+    }
+    .article {
+        float: left;
+        width: 70%;
+        background-color: #FFF;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #CCC;
+    }
+
+    .footer {
+        background-color: #333;
+        color: #FFF;
+        padding: 10px;
+        text-align: center;
+        clear: both;
+    }
+</style>
+
+<body>
+    <header>
+        <h1>Copito, el Perro</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Copito, el primer presidente de Colombia</h2>
+    <hr>
+
+    <article class="container">
+        <h3>La vida de copito</h3>
+
+        <img class="image" src="../static/img/CopitoPre.jpg" alt="Copito el presidente">
+        <p>
+            Copito nació en un pequeño pueblo de Antioquía, Colombia, en una familia de perros mestizos. Desde cachorro,
+            mostró una gran inteligencia y un sentido de justicia que lo diferenciaba de los demás. Mientras otros
+            perros jugaban, Copito soñaba con cambiar el país y mejorar la vida de todos, incluidos los animales y los
+            más desfavorecidos.
+
+            Con el tiempo, Copito comenzó a compartir su mensaje de justicia y unidad, lo que lo llevó a postularse para
+            la alcaldía de su ciudad natal en 2024. A pesar de ser un candidato inesperado, logró un sorprendente
+            segundo lugar, ganando el apoyo de muchos con su carisma y su propuesta de un gobierno honesto.
+        </p>
+
+        <img class="image2" src="../static/img/CopitoPre2.jpg" alt="Copito el presidente" >
+        <p>
+            Ahora, Copito tiene un sueño más grande: ser presidente de Colombia. Con su lema "¡Un país para todos,
+            ladrando fuerte!", busca transformar la política colombiana, enfocándose en el bienestar animal y en mejorar
+            la vida de los colombianos más necesitados. Aunque algunos dudan de su capacidad, su energía y pasión por el
+            cambio siguen ganando corazones en todo el país.
+
+            Copito sigue adelante con su campaña, convencido de que, si un perro puede soñar con ser presidente, todo es
+            posible. ¿Será él el líder que Colombia necesita? El futuro lo dirá.
+        </p>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>

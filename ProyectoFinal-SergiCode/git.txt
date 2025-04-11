@@ -1,0 +1,15 @@
+subir una carpeta  a  github.
+git confing --global user.name "nomber de tu cuenta de githhub"
+git confing --global user.email "email de tu cuenta de githhub"
+git init
+git add . (El espacio y el punto es para que se agregue todo de una vez)
+git commit -am "Comentario"
+git remote add origin ruta que te da github al crear un nuevo repositorio
+git push origin master
+
+Corregir carpeta que se coloco como submodulo:
+
+eliminar la carpeta .git de la carpeta que se coloco como subcarpeta(git esta oculta)
+desde la carpeta principal: git add ruta de la carpeta modificada
+git commit -m "Comentario"
+git push

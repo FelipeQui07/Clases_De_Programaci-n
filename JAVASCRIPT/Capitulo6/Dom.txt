@@ -1,0 +1,102 @@
+DOM (Document Objet Model)
+    - Definición
+    - Concepto Extendido
+
+    - Nodo - Un nodo en el DOM es cualquier etiqueta del cuerpo, como un párrafo, el mismo 
+             body o incluso las etiquetas de una lista.
+            * Document: el nodo document es el nodo raíz, a partir del cual derivan 
+              el resto de nodos.
+            * Element: nodos definidos por etiquetas html.
+            * Text: el texto dentro de un nodo element se considera un nuevo nodo hijo de 
+              tipo text (texto).
+            * Attribute: los atributos de las etiquetas definen nodos, (En JavaScript no los
+              veremos como nodos, sino como información asociada al nodo de tipo element).
+            * Comentarios y otros: los comentarios y otros elementos como las declaracines 
+              doctype en cabecera de los documentos HTML generan nodos.
+
+    Document - metodos de selección de elementos 
+        - getElemenById() - selecciona un elemento por ID.
+        - getElementsByTagName() - selecciona todos los elementos que coincidan con el nombre de
+          la etiqueta especificada.
+        - querySelector() - devuelve el primer elemento que coincidan con el grupo especificado
+          de selectores.
+        - querySelectorAll() - devuelve todos los elementos que coincidan con el grupo especificado
+          de selectores.
+
+    Metodos para definir , obtener y eliminar atributos.
+        - setAttribute() - modifica el valor de un atributo.
+        - getAttribute() - obtiene el valor de un atributo.
+        - removeAttribute() - remueve el valor de una atributo. 
+
+    Atributos Globales
+        - class - lista de clases del elemento separadas por espacios.
+        - contenteditable - indica si el elemento puede ser modificable por el usuario (bool).
+        - dir - indica la direccionalidad del texto.
+        - hidden - indica si el elemento aún no es, o ya no es, relevante.
+        - id - define un identificador único. 
+        - style - contiene declaraciones de estilo CSS para ser aplicadas al elemento.
+        - tabindex - indica si el elemento puede optener un focus de input.
+        - title - contiene un texto con información relacionada al elemento al que pertenece.
+
+    Atributos de input
+        - className
+        - value
+        - type
+        - accept
+        - form
+        - minLength
+        - placeholder
+        - required
+
+    Atributo style
+        - Usos y ejemplos
+        - Propiedades Camel Case
+
+    Clases, classList y metodos de classList
+        - Definición y usos
+        - add() - añade un clase
+        - remove() - remueve una clase
+        - item() - devuelve la clase del indice especificado
+        - contains() - verifica si ese elemento posee o no, la clase especificada
+        - replace() - reemplaza una clase por otra
+        - toggle() - si no tiene una clase especificada, la agrega, si ya la tiene, la elimina
+
+    Obtención y Modificación de Elementos
+        - textContent - devuelve el texto de cualquier nodo (ESTOS SON LOS QUE MAS SE USAN)
+        - innerText - devuelve el texto visible de un node element (YA NO SE USA)
+        - outerText - devuelve el texto que se encuentra en la etiquetas HTML (YA NO SE USA)
+
+        - innerHTML - devuelve el contenido html de un elemento (ESTOS SON LOS QUE MAS SE USAN)
+        - outerHTML - devuelve el código html del elemento (ESTE SE USA EN CASOS ESPECIFICOS)
+
+    Creación de elementos
+        - createElements()
+        - createTextNode()
+        - appendChild()
+        - createDocumentFragment()
+
+    Obtención y Modificación de childs (hijos)
+        - firstChild
+        - lastChild
+        - firstElementChild
+        - lastElementChild
+        - childNodes
+        - children
+
+    Metodos de childs (hijos)
+        - replaceChild()
+        - removeChild()
+        - hasChildNodes()
+
+    Propiedades de parents (padres)
+        - parentElement 
+        - parentNode
+        ESTOS DOS SON CASI LO MISMO
+
+    Propiedades de Siblings (Hermanos) son los que estan en la misma linea o rango. todo lo que esta dentro el padre.
+        - nextSibling
+        - previousSibling
+        - nextElementSibling
+
+    Nodos - Extras
+        - closet()
