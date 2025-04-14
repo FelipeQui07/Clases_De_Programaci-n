@@ -18,7 +18,7 @@ para el salta de linea en windows:
 git config --global core.autocrlf true 'true para windows input para mac o linux'
 git config --global -h 'Nos trae todas las ayudas para mostrarnos todo lo que podemos hacer'
 
-COMANDOS BÁSICOS DE LA TERMINAL(LINUX)  GIT BASH
+COMANDOS BÁSICOS DE LA TERMINAL(BASADO EN LINUX)  GIT BASH
 - ls 'Es el comando para ver el listado de carpetas de donde estamos parados'si fuera en windows utilizamos (dir)''
 - ls -a 'es para que nos muestre todas los archivos incluso los ocultos'
 - cd 'nombre de la carpeta a la que quieres entrar'
