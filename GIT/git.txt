@@ -64,3 +64,23 @@ no aparece cuando hacemos el git status.
 
 comando git diff para ver la diferencia de un archivo antes y un archivo despues para poder hacer una fotografia con git commit
 si corresponde o no en base a lo que necesitemos.
+
+COMO VER LOS COMMITS
+los commits son como una fotografia dentro de una pelicula por lo cual vamos a ver uno atras de otro 
+y vamos a ver donde estamos parados en esa pelicula.
+- git log 'Nos muestra mucha información sobre todos los commits que hemos hecho'
+- git log --oneline 'para que nos muestre la información en una sola lineas y se pueda entender mejor'
+
+¿QUE ES UNA BRANCH/RAMA?
+si nosotros tenemos un flujo que tenemos de nuestro código y vamos haciendo un control de versiones
+haciendo estas fotografias, nosotros posemos hacer flujos alternativos para poder hacer distintsas
+caractaristicas a la par sin tocar el flujo principal.
+
+EJEMPLO
+vamos a ver las branch/ramas como si fueran una pelicula y cada uno de los fotogramas son un commit
+entonces cada ves que hacemos una fotografia a nuestro código, hacemos como una especie de frame
+o una especie de fotograma en la pelicula, en donde estamos parados nosotros es el commit head,
+entonces tenemos una sola rama que seria una sola pelicula y tenemos que cada fotograma es un commit
+
+BRANCH Y CHECKOUT
+
